@@ -1,0 +1,5 @@
+<h1> test입니다~</h1>
+crlf 오류가 나는 경우 해결책
+유닉스의 경우 줄바꿈 키는 Line Feed (\n) 임
+윈도우의 경우 줄바꿈 키는 Carrage Return Line Feed (\r\n) 임
+그러므로 윈도우 환경에서 유닉스를 쓰는 git bash 입장에서 유닉스LF로 작성했기 때문에 CRLF로 저장한다는 경고를 출력하는 것임 
